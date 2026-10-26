@@ -1,0 +1,202 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Defaults — overwritten at runtime from the CMS brand colours. */
+  --c-main: 21 15 20;
+  --c-second: 117 255 249;
+  --c-ink: 243 238 242;
+  --c-soft: 185 174 182;
+  --c-panel: 30 22 28;
+  --c-line: 51 40 47;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scrollbar-color: rgb(var(--c-second)) rgb(var(--c-main));
+    scrollbar-width: thin;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: rgb(var(--c-main));
+    color: rgb(var(--c-ink));
+    font-feature-settings: 'ss01' on, 'cv11' on;
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background: rgb(var(--c-second));
+    color: rgb(var(--c-main));
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: rgb(var(--c-main));
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(var(--c-second));
+    border-radius: 10px;
+    border: 2px solid rgb(var(--c-main));
+  }
+
+  :focus-visible {
+    outline: 2px solid rgb(var(--c-second));
+    outline-offset: 3px;
+    border-radius: 6px;
+  }
+
+  /* Inputs inherit the brand palette everywhere (site form + CMS). */
+  input,
+  textarea,
+  select,
+  button {
+    font: inherit;
+    color: inherit;
+  }
+}
+
+@layer components {
+  .field {
+    @apply w-full rounded-xl border border-line bg-main/60 px-3.5 py-2.5 text-sm text-ink placeholder:text-soft/60 outline-none transition-colors focus:border-second;
+  }
+
+  .label {
+    @apply mb-1.5 block text-xs font-semibold uppercase tracking-wider text-soft;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold transition-colors disabled:cursor-not-allowed disabled:opacity-60;
+  }
+
+  .btn-primary {
+    @apply bg-second text-main hover:bg-ink;
+  }
+
+  .btn-ghost {
+    @apply border border-line text-ink hover:border-second hover:text-second;
+  }
+
+  .btn-danger {
+    @apply border border-red-400/50 text-red-200 hover:bg-red-400/10;
+  }
+
+  .card {
+    @apply rounded-2xl border border-line bg-panel/70;
+  }
+
+  .badge {
+    @apply inline-flex items-center gap-1.5 rounded-full border border-line px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wider text-soft;
+  }
+
+  .badge-accent {
+    @apply border-second/40 bg-second/10 text-second;
+  }
+
+  .admin-link {
+    @apply flex items-center gap-3 rounded-xl px-3 py-2.5 text-sm text-soft transition-colors hover:bg-second/10 hover:text-ink;
+  }
+
+  .admin-link[aria-current='page'] {
+    @apply bg-second text-main hover:bg-second hover:text-main;
+  }
+}
+
+/* ---------- Site motion ---------- */
+[data-reveal] {
+  opacity: 0;
+  transform: translateY(26px);
+  transition:
+    opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1),
+    transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  transition-delay: var(--d, 0ms);
+}
+[data-reveal].is-in {
+  opacity: 1;
+  transform: none;
+}
+
+.cursor-dot,
+.cursor-ring {
+  display: none;
+}
+@media (hover: hover) and (pointer: fine) {
+  .has-cursor,
+  .has-cursor a,
+  .has-cursor button,
+  .has-cursor input,
+  .has-cursor textarea {
+    cursor: none;
+  }
+  .cursor-dot,
+  .cursor-ring {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    pointer-events: none;
+    border-radius: 9999px;
+    will-change: transform;
+  }
+  .cursor-dot {
+    width: 12px;
+    height: 12px;
+    margin: -6px 0 0 -6px;
+    background: rgb(var(--c-main));
+    border: 2px solid rgb(var(--c-second));
+  }
+  .cursor-ring {
+    width: 44px;
+    height: 44px;
+    margin: -22px 0 0 -22px;
+    border: 1.5px solid rgb(var(--c-second));
+    opacity: 0.55;
+    transition:
+      width 0.25s,
+      height 0.25s,
+      margin 0.25s,
+      background 0.25s,
+      opacity 0.25s;
+  }
+  .cursor-ring.is-hover {
+    width: 72px;
+    height: 72px;
+    margin: -36px 0 0 -36px;
+    background: rgb(var(--c-main) / 0.85);
+    opacity: 1;
+  }
+}
+
+@property --r {
+  syntax: '<length>';
+  inherits: false;
+  initial-value: 0px;
+}
+
+.spot {
+  clip-path: circle(var(--r, 0px) at var(--x, 50%) var(--y, 50%));
+  transition: --r 0.3s ease-out;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+  [data-reveal] {
+    opacity: 1;
+    transform: none;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+}

@@ -1,0 +1,35 @@
+# dependencies
+node_modules/
+.npm-cache/
+
+# next.js
+.next/
+out/
+next-env.d.ts
+
+# local environment (never commit secrets)
+.env
+.env.local
+.env.*
+!.env.example
+
+# runtime data (the CMS creates this on first run)
+data/db.json
+data/db.*.json
+data/db.json.tmp
+data/db.corrupt-*.json
+
+# uploaded media (keep the folder, ignore the files)
+public/uploads/*
+!public/uploads/.gitkeep
+
+# misc
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+coverage/
+.vercel/
+.turbo/
+*.tsbuildinfo
