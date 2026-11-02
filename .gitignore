@@ -14,10 +14,7 @@ next-env.d.ts
 !.env.example
 
 # runtime data (the CMS creates this on first run)
-data/db.json
-data/db.*.json
-data/db.json.tmp
-data/db.corrupt-*.json
+
 
 # uploaded media (keep the folder, ignore the files)
 public/uploads/*

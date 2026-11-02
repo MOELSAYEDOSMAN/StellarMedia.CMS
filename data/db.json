@@ -1,0 +1,354 @@
+{
+  "schemaVersion": 1,
+  "revision": 10,
+  "createdAt": "2026-10-26T17:31:45.685Z",
+  "updatedAt": "2026-10-26T18:11:46.692Z",
+  "content": {
+    "brand": {
+      "name": "Stellar Media",
+      "tagline": "Marketing & creative agency, Abu Dhabi",
+      "metaTitle": "Stellar Media | Marketing & creative agency, Abu Dhabi",
+      "metaDescription": "Stellar Media is an Abu Dhabi marketing and creative agency working with government entities and major brands.",
+      "mainColor": "#150f14",
+      "secondColor": "#75fff9",
+      "logoImage": ""
+    },
+    "nav": {
+      "id": "ac7cf128-23e3-48c8-8f03-613745bc6086",
+      "links": [
+        {
+          "id": "0464972d-26c8-4038-95c4-b537b824cd13",
+          "label": "About",
+          "target": "#about"
+        },
+        {
+          "id": "b164640e-55d4-41f6-b6e0-505e5321e0b3",
+          "label": "Services",
+          "target": "#services"
+        },
+        {
+          "id": "d1a3b51b-a0f8-446c-8c98-508148f78403",
+          "label": "Work",
+          "target": "#work"
+        },
+        {
+          "id": "8ed0a8fb-2efa-4ff8-b493-1070f76f901b",
+          "label": "Contact",
+          "target": "#contact"
+        }
+      ],
+      "ctaLabel": "Start a project",
+      "ctaTarget": "#contact"
+    },
+    "hero": {
+      "eyebrow": "Marketing and creative agency, Abu Dhabi",
+      "headline": [
+        "Brands that",
+        "command",
+        "attention."
+      ],
+      "sub": "We help government entities and major brands turn strategy into campaigns, identities and content people remember.",
+      "primaryLabel": "Start a project",
+      "primaryTarget": "#contact",
+      "secondaryLabel": "See concept work",
+      "secondaryTarget": "#work",
+      "marquee": [
+        "Strategy",
+        "Branding",
+        "Content",
+        "Digital marketing",
+        "Creative production"
+      ]
+    },
+    "about": {
+      "id": "e806f700-86ae-40cf-8aa5-4dc573e15325",
+      "eyebrow": "About",
+      "heading": "Creative work that holds up in a boardroom and on a billboard.",
+      "body": "Stellar Media is a marketing and creative agency based in Abu Dhabi. We work with government entities and major brands that need communication to be clear, consistent and well made.",
+      "principles": [
+        {
+          "id": "babf3695-7237-4390-81ed-db163a778194",
+          "title": "Clear before clever",
+          "text": "Every campaign starts with one idea that your audience can repeat back."
+        },
+        {
+          "id": "59c8b983-c4d9-430b-8012-6d7dbfe4c762",
+          "title": "Built for scale",
+          "text": "Identities and content systems that stay consistent across channels and teams."
+        },
+        {
+          "id": "b0a08e26-deb1-4bbc-8bbf-c441c12971f0",
+          "title": "Made with care",
+          "text": "Craft in the details, from copy to colour to the final export."
+        }
+      ],
+      "visible": true,
+      "order": 1
+    },
+    "services": {
+      "id": "3f857cc7-7292-42cc-99d8-0c2d42061436",
+      "eyebrow": "Services",
+      "heading": "Everything a campaign needs, under one roof.",
+      "items": [
+        {
+          "id": "9d09048a-5a20-4a01-99d6-67b9e749baa3",
+          "name": "Strategy",
+          "summary": "We define the audience, the message and the channels before any design starts.",
+          "points": [
+            "Brand positioning",
+            "Audience research",
+            "Campaign planning"
+          ]
+        },
+        {
+          "id": "6882ae61-8dce-44b9-8819-7116078c1da4",
+          "name": "Branding",
+          "summary": "Visual and verbal identities built to work in print, digital and physical spaces.",
+          "points": [
+            "Identity design",
+            "Guidelines",
+            "Naming and tone of voice"
+          ]
+        },
+        {
+          "id": "ae98bff9-cd07-44e3-af98-f5197a7f40bf",
+          "name": "Content",
+          "summary": "Copy, photography and video that explain your story in plain, memorable language.",
+          "points": [
+            "Copywriting",
+            "Social content",
+            "Editorial"
+          ]
+        },
+        {
+          "id": "a9451792-49e7-4a71-aec2-e189117db602",
+          "name": "Digital marketing",
+          "summary": "Campaigns planned, launched and measured across the channels that matter to your audience.",
+          "points": [
+            "Social media",
+            "Paid media",
+            "Web and landing pages"
+          ]
+        },
+        {
+          "id": "faf02a30-fd85-487f-8a45-9108bc1490aa",
+          "name": "Creative production",
+          "summary": "From storyboard to final delivery, we produce the assets your campaign needs.",
+          "points": [
+            "Video",
+            "Motion graphics",
+            "Print and events"
+          ]
+        }
+      ],
+      "visible": true,
+      "order": 2
+    },
+    "work": {
+      "id": "fae57ef3-def8-47d1-89b7-459bb2301ee6",
+      "eyebrow": "Selected work",
+      "heading": "Selected work",
+      "note": "These are concept projects created to show our approach. They are not work for real clients.",
+      "items": [
+        {
+          "id": "f73aef7c-3bce-489d-9f69-4abfc8101610",
+          "title": "Orbit",
+          "blurb": "A concept identity for a national innovation week.",
+          "tags": [
+            "Identity",
+            "Concept"
+          ],
+          "art": "orbit",
+          "image": "",
+          "link": ""
+        },
+        {
+          "id": "c0ba01a4-47dc-44bc-b55d-7659dd89ef92",
+          "title": "Signal",
+          "blurb": "A concept public-awareness campaign built around simple data visuals.",
+          "tags": [
+            "Campaign",
+            "Concept"
+          ],
+          "art": "bars",
+          "image": "",
+          "link": ""
+        },
+        {
+          "id": "851e1531-ffe2-40e9-8ed9-3b6e63b32df2",
+          "title": "Aura",
+          "blurb": "A concept launch for a lifestyle brand with a bold, playful look.",
+          "tags": [
+            "Launch",
+            "Concept"
+          ],
+          "art": "blob",
+          "image": "",
+          "link": ""
+        }
+      ],
+      "visible": true,
+      "order": 3
+    },
+    "contact": {
+      "id": "eb926bc6-d2a6-4ebd-8957-306206d5b134",
+      "eyebrow": "Contact",
+      "heading": "Tell us what you are building.",
+      "body": "Share a few details about your project and we will reply by email.",
+      "studio": "Abu Dhabi, United Arab Emirates",
+      "email": "",
+      "phone": "",
+      "hours": "",
+      "formNote": "",
+      "notifyEmail": "",
+      "visible": true,
+      "order": 4
+    },
+    "footer": {
+      "id": "16d1ec1a-77bc-4e26-b4c9-09b538a9b604",
+      "blurb": "Marketing and creative agency in Abu Dhabi.",
+      "socials": [],
+      "copyright": "Stellar Media. All rights reserved."
+    }
+  },
+  "admins": [
+    {
+      "id": "3f514eae-76e0-4478-81ff-1beeb8bef9e2",
+      "name": "Administrator",
+      "email": "admin",
+      "role": "owner",
+      "active": true,
+      "passwordHash": "scrypt$16384$8$1$9c8b89fd0394782779e46ee6a72ab847$b2273346bcb9148812a3082d6a56994e4a81f6ce85fa6a2b68b0b71f15eb89bb4bb2c764ff1f4b5832d8d143e54184e32537071f18f41a7cd1e9c10d44730b42",
+      "passwordChangedAt": null,
+      "createdAt": "2026-10-26T17:31:45.685Z",
+      "updatedAt": "2026-10-26T17:31:45.685Z",
+      "lastLoginAt": "2026-10-26T17:44:34.449Z"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "ac6e97a1-bd3a-491e-a72b-941a3c852146",
+      "adminId": "3f514eae-76e0-4478-81ff-1beeb8bef9e2",
+      "tokenHash": "3f9805d2f9c11845bbd824fa1c27187a8058298e60340c7a794c8735e559a78d",
+      "createdAt": 1793035939363,
+      "expiresAt": 1793640739363,
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.143.1 Chrome/150.0.7871.250 Electron/43.7.7 Safari/537.36"
+    },
+    {
+      "id": "7f352381-8156-4bf9-a382-40f7584a0b0a",
+      "adminId": "3f514eae-76e0-4478-81ff-1beeb8bef9e2",
+      "tokenHash": "1e177f17af82fd8f3df4e1ade799a9c4b25714fa61097368492b173981434162",
+      "createdAt": 1793036674449,
+      "expiresAt": 1793641474449,
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"
+    }
+  ],
+  "messages": [
+    {
+      "id": "565fc1fc-d68b-4953-910c-7b670e9568dc",
+      "name": "Mohamed",
+      "email": "mohamedels312ead@gmail.com",
+      "company": "eg",
+      "message": "11111111111111111111111111111111111111111111",
+      "status": "new",
+      "source": "Website contact form",
+      "createdAt": "2026-10-26T18:11:46.692Z",
+      "ipHash": "eff8e7ca506627fe",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "emailStatus": "not-configured",
+      "emailError": null
+    },
+    {
+      "id": "00f622e2-d618-4377-b52a-35e8ce13884d",
+      "name": "Mohamed",
+      "email": "mohamed@smtp.com",
+      "company": "eg",
+      "message": "hello my name mohamed i'm dev",
+      "status": "new",
+      "source": "Website contact form",
+      "createdAt": "2026-10-26T18:04:30.274Z",
+      "ipHash": "eff8e7ca506627fe",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "emailStatus": "not-configured",
+      "emailError": null
+    }
+  ],
+  "activity": [
+    {
+      "id": "784b03e5-fff7-4c32-9902-34fc69774085",
+      "at": "2026-10-26T18:11:46.692Z",
+      "actor": "visitor",
+      "action": "sent an enquiry",
+      "target": "mohamedels312ead@gmail.com",
+      "meta": null
+    },
+    {
+      "id": "bf51fc60-dcb9-4408-857a-2ab267765e16",
+      "at": "2026-10-26T18:04:30.274Z",
+      "actor": "visitor",
+      "action": "sent an enquiry",
+      "target": "mohamed@smtp.com",
+      "meta": null
+    },
+    {
+      "id": "215d32c3-3927-472b-945d-2ebfc8e42c55",
+      "at": "2026-10-26T17:45:43.878Z",
+      "actor": "admin",
+      "action": "updated section",
+      "target": "Hero",
+      "meta": null
+    },
+    {
+      "id": "65ac3fc7-009c-4be3-b934-8ea47c2285f0",
+      "at": "2026-10-26T17:45:30.309Z",
+      "actor": "admin",
+      "action": "updated section",
+      "target": "Hero",
+      "meta": null
+    },
+    {
+      "id": "32376c9a-ed35-4b06-aeb4-befd2d718b86",
+      "at": "2026-10-26T17:44:34.450Z",
+      "actor": "admin",
+      "action": "signed in",
+      "target": "CMS",
+      "meta": {
+        "role": "owner"
+      }
+    },
+    {
+      "id": "4eea92fb-1c18-48e4-a4ba-847cd7744ea6",
+      "at": "2026-10-26T17:32:59.522Z",
+      "actor": "admin",
+      "action": "updated section",
+      "target": "Brand & SEO",
+      "meta": null
+    },
+    {
+      "id": "43baf885-7b6d-4d82-941b-32126751a018",
+      "at": "2026-10-26T17:32:45.852Z",
+      "actor": "admin",
+      "action": "updated section",
+      "target": "Brand & SEO",
+      "meta": null
+    },
+    {
+      "id": "feb26a6a-4d7d-4de0-b2ab-3548effe4286",
+      "at": "2026-10-26T17:32:40.372Z",
+      "actor": "admin",
+      "action": "updated section",
+      "target": "Brand & SEO",
+      "meta": null
+    },
+    {
+      "id": "d66e4b05-fcc6-469a-ba09-c8e2842cd8d5",
+      "at": "2026-10-26T17:32:19.364Z",
+      "actor": "admin",
+      "action": "signed in",
+      "target": "CMS",
+      "meta": {
+        "role": "owner"
+      }
+    }
+  ]
+}
